@@ -1,0 +1,51 @@
+    body {
+        display: flex;
+        justify-content: space-around;
+        background-color: #a5d6fb;
+    }
+    
+    .game {
+        width: 90%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        text-align: center;
+    }
+    
+    h1 {
+        text-align: center;
+        display: inline-block;
+        position: absolute;
+    }
+    
+    #plateau1 {
+        margin-top: 120px;
+        margin-left: 50px;
+        border: solid;
+        box-shadow: 10px 5px 5px black;
+        background-color: #d8dcdf;
+        border-collapse: collapse;
+    }
+    
+    #plateau2 {
+        margin-top: 120px;
+        margin-right: 50px;
+        border: solid;
+        box-shadow: 10px 5px 5px black;
+        background-color: #d8dcdf;
+        border-collapse: collapse;
+    }
+    
+    .caseBataille {
+        width: 35px;
+        height: 35px;
+        text-align: center;
+    }
+    
+    .orange {
+        background-color: #fdb121;
+    }
+    
+    .red {
+        background-color: #ea0000;
+    }
