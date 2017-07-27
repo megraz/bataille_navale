@@ -41,7 +41,7 @@
                 <td></td>
                 <td class="caseBataille">A</td>
                 <td class="caseBataille">B</td>
-                <td class=" caseBataille">C</td>
+                <td class="caseBataille">C</td>
                 <td class="caseBataille">D</td>
                 <td class="caseBataille">E</td>
                 <td class="caseBataille">F</td>
