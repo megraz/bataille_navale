@@ -1,6 +1,7 @@
 let tableaujoueur = [];
 let tableauennemi = []; // on crée un tableau vide qui va contenie le tout
 let ennemigrid = createGrid('plateau2', tableauennemi); //on demade au tableau de l'ennemi de faire comme le premier
+let creatall = createGrid('plateau1', tableaujoueur); //pr appeler la fonction: premier tableau créé à mettre en dernier pr être lu en premier
 
 function createGrid(addelement, tableau) { //addelement = argument pr rajouter un element futur
 
@@ -25,5 +26,4 @@ function createGrid(addelement, tableau) { //addelement = argument pr rajouter u
     }
     return tableau;
 }
-let creatall = createGrid('plateau1', tableaujoueur); //pr appeler la fonction
 //console.log(tableaujoueur);
